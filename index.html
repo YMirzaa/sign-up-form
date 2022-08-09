@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div id="left-container">
+        <div class="logo-sec">
+            <img src="./images/odin-lined-logo.png" alt="logo">
+            <p>ODIN</p>
+        </div>
+        <p>Photo by <a href="">Halie West</a> on <a href="">Unsplash</a></p>
+    </div>
+    <div id="right-container">
+        <div id="right-top-sec">
+            <p>This is not a real online service! You know you need something like This
+                in your life to help you realize your deepest dreams. Sign up <em>now</em> 
+                to get started.
+            </p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <div id="form-sec">
+            <p>Let's do this!</p>
+            <form action="" id="form1">
+                <section>
+                    <div class="input-container">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id="first_name" name="first_name" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name" name="last_name" required>
+                    </div>
+                </section>
+    
+                <section>
+                    <div class="input-container">
+                        <label for="mail_adrs">EMAIL</label>
+                        <input type="email" id="mail_adrs" name="mail_adrs" required>
+                        
+                    </div>
+                    <div class="input-container">
+                        <label for="tel">PHONE NUMBER</label>
+                        <input type="tel" id="tel" name="tel" required>
+                    </div>
+    
+                </section>
+    
+                <section>
+    
+                    <div class="input-container">
+                        <label for="pswd_1">PASSWORD</label>
+                        <input type="password" id="pswd_1" name="pswd" required>
+                    </div>
+                    <div class="input-container">
+    
+                    <label for="pswd_2">CONFIRM PASSWORD</label>
+                    <input type="password" id="pswd_2" name="pswd_2" required>
+                </div>
+                </section>
+            </form>
+            
+        </div>
+        <div id="right-bottom-sec">
+            <button type="submit" form="form1">Create Account</button>
+            <p>
+                Already have an account? <a href="">Log in</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
